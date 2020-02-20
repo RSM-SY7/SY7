@@ -3,48 +3,48 @@ package fywzqx.inst.sy7;
 import java.io.Serializable;
 
 /*
- * Í·ÎÄ¼ş2
+ * å¤´æ–‡ä»¶1   yuan test
  */
 
 public class P_SY7_Head1  implements Serializable
 {
 	private static final long serialVersionUID = 1L;
 	public static final String strFileVerFinaL = "V1.0.01207";
-	public String strXieYi;	//	Ğ­Òé°æ±¾	String	3
-	public byte byDataType;	//	Êı¾İ°üÀàĞÍ	Byte	1
-	public String strInst;		//	²âÊÔÒÇµÄ±àºÅ	String	24
-	public String strLiuShui;	//	Á÷Ë®ºÅ	String	24
-	public String strPile;		//	ÊÔ×®±àºÅ	String	16
-	public String strProfile;	//	ÆÊÃæÁĞ±í	String	40     ÆÊÃæÁĞ±í£¬ÒÔ¶ººÅ·Ö¸ô¡£  ±ÈÈç£º1-2,1-3£¬2-3¡£Í¬Ò»¸öÊµÑéÍ¬Ò»¸ù×®ÉÏÊµÑé£¬µ«ÊÇÆÊÃæ·ÖÅúÉÏ´«£¬Òò´ËĞèÒªÔö¼ÓÒ»¸ö±êÖ¾£¬¼´³ıÁËÁ÷Ë®ºÅ¡¢Éè±¸ºÅ¡¢×®ºÅÍâ»¹ĞëÔö¼ÓÒ»¸ö×Ö¶Î£¬È¥Çø·Ö·ÖÅúÉÏ´«ÆÊÃæµÄÊı¾İ¡£
-	public byte bySendContent;	//	´«ÊäµÄÄÚÈİ	Byte	1   0£ºÔ­Ê¼Êı¾İ;10£º·ÖÎöÊı¾İ 120
-	public byte byTestMethod;	//	ÊµÑé·½·¨	Byte	1    0£ºµ¥×®ÊúÏò¿¹Ñ¹, µ¥×®ÊúÏò¿¹°Î, ÑÒÊ¯Ãª¸Ë¿¹°Î, ×ÔÆ½ºâ, ¸´ºÏµØ»ù, Ç³²ãÆ½°å, Éî²ãÆ½°å, Ô­Î»ÊÔÑé_ÍÁ²ã, Ô­Î»ÊÔÑé_ÑÒ»ù, ÑÒ»ùºÉÔØ,10£ºH0,H1,H2,H3,H4,H5,H6,H7,H8,H9,20£ºÆ½²â,:21£ºÉÈ²â, 22£ºĞ±²â,W3,W4,W5,W6,W7,W8,W9
-	public byte byID;			//	Í·°üĞòºÅ	Byte	1
-	public byte byTestGuiFan;	//	²âÊÔ¹æ·¶	Byte	1 1£ºDGJ08¨C-2003£»2£ºJGJ106-2003£»3£ºJTG/TF81-01-2004£»5£ºSJG09-2007£»6£ºTB10218-2008£»7£ºCECS21:2000£»8£ºDBJ15-60-2008
-	public String strDateFile;	//	ÎÄ¼şÉú³ÉÊ±¼ä	time	8 ÎÄ¼ş´´½¨Ê±µÄÏµÍ³Ê±¼ä
-	public String strDateTest;	//	²âÊÔÈÕÆÚ	time	8 £¨·ÖÎö½á¹ûÎÄ¼ş£©
-	public String strDateJiaoZhu;	//	½½ÖıÈÕÆÚ	time	8
-	public String strFileName;	//	ÎÄ¼şÃû	String	60
-	public float fPileD;		//	×®¾¶	float	4
-	public float fPileLen;		//	×®³¤	float	4
-	public float fMove;			//	ÒÆ¾à	Float	4
-	public int iPileNum;		//	¹ÜÊı	int	4
-	public int iProfileNum;		//	ÆÊÃæÊı	int	4
-	public float fRate;			//	²ÉÑùÆµÂÊ	float	4
-	public int iSampleLen;		//	²ÉÑù³¤¶È	int	4
-	public float fGPSX;			//	¾­¶È	Float	4
-	public float fGPSY;			//	Î³¶È	Float	4
-	public byte byWaveEnhance;	//	Ê×²¨ÔöÇ¿	Byte	1
-	public byte bySoftFilt;		//	Èí¼şÂÇ²¨	Byte	1
-	public float fV;			//	Éù²â¹Ü²ÄÁÏËÙ¶È	float	4
-	public float fPipeOutD;		//	Éù²â¹ÜÍâ¾¶	float	4
-	public float fPipeInD;		//	Éù²â¹ÜÄÚ¾¶	float	4
-	public float fSenseOutD;	//	Ì½Í·Íâ¾¶	float	4
-	public int iAngle;			//	·½Î»½Ç	int	4
-	public float fWheelD;		//	ÂÖ¾¶	float	4
-	public float fLineD;		//	Ïß¾¶	float	4
+	public String strXieYi;	//	åè®®ç‰ˆæœ¬	String	3
+	public byte byDataType;	//	æ•°æ®åŒ…ç±»å‹	Byte	1
+	public String strInst;		//	æµ‹è¯•ä»ªçš„ç¼–å·	String	24
+	public String strLiuShui;	//	æµæ°´å·	String	24
+	public String strPile;		//	è¯•æ¡©ç¼–å·	String	16
+	public String strProfile;	//	å‰–é¢åˆ—è¡¨	String	40     å‰–é¢åˆ—è¡¨ï¼Œä»¥é€—å·åˆ†éš”ã€‚  æ¯”å¦‚ï¼š1-2,1-3ï¼Œ2-3ã€‚åŒä¸€ä¸ªå®éªŒåŒä¸€æ ¹æ¡©ä¸Šå®éªŒï¼Œä½†æ˜¯å‰–é¢åˆ†æ‰¹ä¸Šä¼ ï¼Œå› æ­¤éœ€è¦å¢åŠ ä¸€ä¸ªæ ‡å¿—ï¼Œå³é™¤äº†æµæ°´å·ã€è®¾å¤‡å·ã€æ¡©å·å¤–è¿˜é¡»å¢åŠ ä¸€ä¸ªå­—æ®µï¼Œå»åŒºåˆ†åˆ†æ‰¹ä¸Šä¼ å‰–é¢çš„æ•°æ®ã€‚
+	public byte bySendContent;	//	ä¼ è¾“çš„å†…å®¹	Byte	1   0ï¼šåŸå§‹æ•°æ®;10ï¼šåˆ†ææ•°æ® 120
+	public byte byTestMethod;	//	å®éªŒæ–¹æ³•	Byte	1    0ï¼šå•æ¡©ç«–å‘æŠ—å‹, å•æ¡©ç«–å‘æŠ—æ‹”, å²©çŸ³é”šæ†æŠ—æ‹”, è‡ªå¹³è¡¡, å¤åˆåœ°åŸº, æµ…å±‚å¹³æ¿, æ·±å±‚å¹³æ¿, åŸä½è¯•éªŒ_åœŸå±‚, åŸä½è¯•éªŒ_å²©åŸº, å²©åŸºè·è½½,10ï¼šH0,H1,H2,H3,H4,H5,H6,H7,H8,H9,20ï¼šå¹³æµ‹,:21ï¼šæ‰‡æµ‹, 22ï¼šæ–œæµ‹,W3,W4,W5,W6,W7,W8,W9
+	public byte byID;			//	å¤´åŒ…åºå·	Byte	1
+	public byte byTestGuiFan;	//	æµ‹è¯•è§„èŒƒ	Byte	1 1ï¼šDGJ08â€“-2003ï¼›2ï¼šJGJ106-2003ï¼›3ï¼šJTG/TF81-01-2004ï¼›5ï¼šSJG09-2007ï¼›6ï¼šTB10218-2008ï¼›7ï¼šCECS21:2000ï¼›8ï¼šDBJ15-60-2008
+	public String strDateFile;	//	æ–‡ä»¶ç”Ÿæˆæ—¶é—´	time	8 æ–‡ä»¶åˆ›å»ºæ—¶çš„ç³»ç»Ÿæ—¶é—´
+	public String strDateTest;	//	æµ‹è¯•æ—¥æœŸ	time	8 ï¼ˆåˆ†æç»“æœæ–‡ä»¶ï¼‰
+	public String strDateJiaoZhu;	//	æµ‡é“¸æ—¥æœŸ	time	8
+	public String strFileName;	//	æ–‡ä»¶å	String	60
+	public float fPileD;		//	æ¡©å¾„	float	4
+	public float fPileLen;		//	æ¡©é•¿	float	4
+	public float fMove;			//	ç§»è·	Float	4
+	public int iPileNum;		//	ç®¡æ•°	int	4
+	public int iProfileNum;		//	å‰–é¢æ•°	int	4
+	public float fRate;			//	é‡‡æ ·é¢‘ç‡	float	4
+	public int iSampleLen;		//	é‡‡æ ·é•¿åº¦	int	4
+	public float fGPSX;			//	ç»åº¦	Float	4
+	public float fGPSY;			//	çº¬åº¦	Float	4
+	public byte byWaveEnhance;	//	é¦–æ³¢å¢å¼º	Byte	1
+	public byte bySoftFilt;		//	è½¯ä»¶è™‘æ³¢	Byte	1
+	public float fV;			//	å£°æµ‹ç®¡ææ–™é€Ÿåº¦	float	4
+	public float fPipeOutD;		//	å£°æµ‹ç®¡å¤–å¾„	float	4
+	public float fPipeInD;		//	å£°æµ‹ç®¡å†…å¾„	float	4
+	public float fSenseOutD;	//	æ¢å¤´å¤–å¾„	float	4
+	public int iAngle;			//	æ–¹ä½è§’	int	4
+	public float fWheelD;		//	è½®å¾„	float	4
+	public float fLineD;		//	çº¿å¾„	float	4
 
-	public String strFileVer;	//ÎÄ¼ş°æ±¾ºÅ£¬ÓÃÓÚ¶ÁÈ¡Ê±µÄĞ£Ñé
-	public String strFileVer1;	//ÎÄ¼ş°æ±¾ºÅ£¬ÓÃÓÚ¶ÁÈ¡Ê±µÄĞ£Ñé
+	public String strFileVer;	//æ–‡ä»¶ç‰ˆæœ¬å·ï¼Œç”¨äºè¯»å–æ—¶çš„æ ¡éªŒ
+	public String strFileVer1;	//æ–‡ä»¶ç‰ˆæœ¬å·ï¼Œç”¨äºè¯»å–æ—¶çš„æ ¡éªŒ
 
 
 	public P_SY7_Head1()
@@ -54,38 +54,38 @@ public class P_SY7_Head1  implements Serializable
 	
 	public void SetDefault()
 	{
-		strXieYi = "002";	//	Ğ­Òé°æ±¾	String	3
-		byDataType = 0x0B;	//	Êı¾İ°üÀàĞÍ	Byte	1
-		strInst = "";		//	²âÊÔÒÇµÄ±àºÅ	String	24
-		strLiuShui = "";	//	Á÷Ë®ºÅ	String	24
-		strPile = "";		//	ÊÔ×®±àºÅ	String	16
-		strProfile = "";	//	ÆÊÃæÁĞ±í	String	40
-		bySendContent = 0;	//	´«ÊäµÄÄÚÈİ	Byte	1
-		byTestMethod = 20;	//	ÊµÑé·½·¨	Byte	1
-		byID = 1;			//	Í·°üĞòºÅ	Byte	1
-		byTestGuiFan = 1;;	//	²âÊÔ¹æ·¶	Byte	1
-		strDateFile = "2017-08-28 18:38:58";	//	ÎÄ¼şÉú³ÉÊ±¼ä	time	8
-		strDateTest = "2017-08-28 08:28:48";	//	²âÊÔÈÕÆÚ	time	8
-		strDateJiaoZhu = "2017-08-28 18:28:38";	//	½½ÖıÈÕÆÚ	time	8
-		strFileName = "";	//	ÎÄ¼şÃû	String	60
-		fPileD = 20;		//	×®¾¶	float	4  (mm)
-		fPileLen = 40;		//	×®³¤	float	4 (m)
-		fMove = 0.1f;		//	ÒÆ¾à	Float	4 £¨m)
-		iPileNum = 4;		//	¹ÜÊı	int	4
-		iProfileNum = 3;	//	ÆÊÃæÊı	int	4
-		fRate = 1.0f;		//	²ÉÑùÆµÂÊ	float	4
-		iSampleLen = 512;		//	²ÉÑù³¤¶È	int	4
-		fGPSX = 0.0f;		//	¾­¶È	Float	4
-		fGPSY = 0.0f;		//	Î³¶È	Float	4
-		byWaveEnhance = 0;	//	Ê×²¨ÔöÇ¿	Byte	1
-		bySoftFilt = 1;	//	Èí¼şÂÇ²¨	Byte	1
-		fV = 1.0f;			//	Éù²â¹Ü²ÄÁÏËÙ¶È	float	4
-		fPipeOutD = 1.0f;	//	Éù²â¹ÜÍâ¾¶	float	4
-		fPipeInD = 1.0f;		//	Éù²â¹ÜÄÚ¾¶	float	4
-		fSenseOutD = 1.0f;	//	Ì½Í·Íâ¾¶	float	4
-		iAngle = 0;			//	·½Î»½Ç	int	4
-		fWheelD = 1.0f;		//	ÂÖ¾¶	float	4
-		fLineD = 1.0f;		//	Ïß¾¶	float	4
+		strXieYi = "002";	//	åè®®ç‰ˆæœ¬	String	3
+		byDataType = 0x0B;	//	æ•°æ®åŒ…ç±»å‹	Byte	1
+		strInst = "";		//	æµ‹è¯•ä»ªçš„ç¼–å·	String	24
+		strLiuShui = "";	//	æµæ°´å·	String	24
+		strPile = "";		//	è¯•æ¡©ç¼–å·	String	16
+		strProfile = "";	//	å‰–é¢åˆ—è¡¨	String	40
+		bySendContent = 0;	//	ä¼ è¾“çš„å†…å®¹	Byte	1
+		byTestMethod = 20;	//	å®éªŒæ–¹æ³•	Byte	1
+		byID = 1;			//	å¤´åŒ…åºå·	Byte	1
+		byTestGuiFan = 1;;	//	æµ‹è¯•è§„èŒƒ	Byte	1
+		strDateFile = "2017-08-28 18:38:58";	//	æ–‡ä»¶ç”Ÿæˆæ—¶é—´	time	8
+		strDateTest = "2017-08-28 08:28:48";	//	æµ‹è¯•æ—¥æœŸ	time	8
+		strDateJiaoZhu = "2017-08-28 18:28:38";	//	æµ‡é“¸æ—¥æœŸ	time	8
+		strFileName = "";	//	æ–‡ä»¶å	String	60
+		fPileD = 20;		//	æ¡©å¾„	float	4  (mm)
+		fPileLen = 40;		//	æ¡©é•¿	float	4 (m)
+		fMove = 0.1f;		//	ç§»è·	Float	4 ï¼ˆm)
+		iPileNum = 4;		//	ç®¡æ•°	int	4
+		iProfileNum = 3;	//	å‰–é¢æ•°	int	4
+		fRate = 1.0f;		//	é‡‡æ ·é¢‘ç‡	float	4
+		iSampleLen = 512;		//	é‡‡æ ·é•¿åº¦	int	4
+		fGPSX = 0.0f;		//	ç»åº¦	Float	4
+		fGPSY = 0.0f;		//	çº¬åº¦	Float	4
+		byWaveEnhance = 0;	//	é¦–æ³¢å¢å¼º	Byte	1
+		bySoftFilt = 1;	//	è½¯ä»¶è™‘æ³¢	Byte	1
+		fV = 1.0f;			//	å£°æµ‹ç®¡ææ–™é€Ÿåº¦	float	4
+		fPipeOutD = 1.0f;	//	å£°æµ‹ç®¡å¤–å¾„	float	4
+		fPipeInD = 1.0f;		//	å£°æµ‹ç®¡å†…å¾„	float	4
+		fSenseOutD = 1.0f;	//	æ¢å¤´å¤–å¾„	float	4
+		iAngle = 0;			//	æ–¹ä½è§’	int	4
+		fWheelD = 1.0f;		//	è½®å¾„	float	4
+		fLineD = 1.0f;		//	çº¿å¾„	float	4
 		strFileVer = strFileVerFinaL;
 	}
 
