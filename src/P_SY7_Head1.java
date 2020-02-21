@@ -4,7 +4,7 @@ package fywzqx.inst.sy71;
 package fywzqx.inst.sy72;
 package fywzqx.inst.sy73;
 package fywzqx.inst.sy74;
-
+package fywzqx.inst.sy75;
 import java.io.Serializable;
 
 /*
