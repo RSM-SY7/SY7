@@ -1,5 +1,5 @@
-﻿package fywzqx.inst.sy7;
-4444444444444444444444444444444444444444444444444444444444
+package fywzqx.inst.sy7;
+
 package fywzqx.inst.sy71;
 package fywzqx.inst.sy72;
 package fywzqx.inst.sy73;
